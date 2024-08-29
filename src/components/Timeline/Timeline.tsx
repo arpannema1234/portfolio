@@ -39,9 +39,9 @@ const Timeline = () => {
               <h3 className="text-xl font-semibold">Web Developer Intern</h3>
               <h4 className="text-lg font-medium">Stealth Startup</h4>
               <p>
-                Contributed to the development of National People’s Party
-                (NPP)’s official website and maintained the company's website
-                using Next.js, TypeScript, and SCSS.
+                My web development experience with Stealth Startup was truly
+                exceptional. I had the chance to contribute to the creation of a
+                Blogging Site and developed a project management tool.
               </p>
             </VerticalTimelineElement>
 
