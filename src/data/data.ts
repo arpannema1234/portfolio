@@ -49,7 +49,7 @@ export const SkillsList: skillsListInterface[] = [
     id: 1,
     icon: CodeBracketIcon,
     title: "Programming Languages",
-    content: "C/C++, Python, JavaScript, Java",
+    content: "C/C++, JavaScript",
   },
   {
     id: 2,
