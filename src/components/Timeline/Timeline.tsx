@@ -32,16 +32,29 @@ const Timeline = () => {
               contentArrowStyle={{
                 borderRight: "7px solid #0047ab",
               }}
-              date="May 2024 - Jun 2024"
+              date="October 2024 - Present"
               iconStyle={{ background: "#0047ab", color: "#fff" }}
               icon={<CheckBadgeIcon />}
             >
-              <h3 className="text-xl font-semibold">Web Developer Intern</h3>
-              <h4 className="text-lg font-medium">Stealth Startup</h4>
+              <h3 className="text-xl font-semibold">
+                Backend Developer Intern
+              </h3>
+              <h4 className="text-lg font-medium">WithWeb</h4>
               <p>
-                My web development experience with Stealth Startup was truly
-                exceptional. I had the chance to contribute to the creation of a
-                Blogging Site and developed a project management tool.
+                <ul className="list-none md:list-disc">
+                  <li>
+                    Developed authentication routes for login and signup using
+                    mobile number and OTP-based 2-factor authentication.
+                  </li>
+                  <li>
+                    Refactored user model to unify retailer and wholesaler roles
+                    and added express-validator for request validation.
+                  </li>
+                  <li>
+                    Created routes for users and admin, improved validation for
+                    login and signup, and made error handling better
+                  </li>
+                </ul>
               </p>
             </VerticalTimelineElement>
 
