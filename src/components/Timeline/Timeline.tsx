@@ -32,12 +32,72 @@ const Timeline = () => {
               contentArrowStyle={{
                 borderRight: "7px solid #0047ab",
               }}
-              date="October 2024 - Present"
+              date="January 2025 - July 2025"
               iconStyle={{ background: "#0047ab", color: "#fff" }}
               icon={<CheckBadgeIcon />}
             >
               <h3 className="text-xl font-semibold">
-                Backend Developer Intern
+                Software Developer Intern
+              </h3>
+              <h4 className="text-lg font-medium">
+                Samsung R&D Institute, Delhi
+              </h4>
+              <p>
+                <ul className="list-none md:list-disc">
+                  <li>
+                    Developed a custom Angular directive to dynamically disable
+                    all buttons across the Admin Portal, enhancing the UI
+                    experience.
+                  </li>
+                  <li>
+                    Proposed and implemented an API response caching algorithm
+                    using RxJS observables, reducing redundant network requests
+                    and improving load times.
+                  </li>
+                  <li>
+                    Conducted manual testing and validation of portal features
+                    to ensure reliability and consistency across modules.
+                  </li>
+                  <li>
+                    Integrated image upload functionality by adding a new input
+                    field in the Angular-based Admin Portal and connecting it to
+                    the .NET backend for saving and retrieving images.
+                  </li>
+                  <li>
+                    Diagnosed and resolved over 22 critical bugs within the
+                    admin portal, reducing system downtime by 40% and improving
+                    data integrity for TVplus data curation processes.
+                  </li>
+                  <li>
+                    Built and rolled out 3 new features in response to changing
+                    business needs, ensuring the product continued to meet user
+                    expectations and goals.
+                  </li>
+                  <li>
+                    Conducted comprehensive testing and troubleshooting that
+                    increased portal stability, resulting in a 30% reduction in
+                    user-reported issues over a three-month period.
+                  </li>
+                </ul>
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{
+                background: "#0047ab",
+                boxShadow: "0 4px 10px rgba(0, 0, 0, 0.2)",
+                color: "#ddd",
+                borderRadius: "12px",
+              }}
+              contentArrowStyle={{
+                borderRight: "7px solid #0047ab",
+              }}
+              date="October 2024 - December 2024"
+              iconStyle={{ background: "#0047ab", color: "#fff" }}
+              icon={<CheckBadgeIcon />}
+            >
+              <h3 className="text-xl font-semibold">
+                Fullstack Developer Intern
               </h3>
               <h4 className="text-lg font-medium">WithWeb</h4>
               <p>
@@ -52,7 +112,20 @@ const Timeline = () => {
                   </li>
                   <li>
                     Created routes for users and admin, improved validation for
-                    login and signup, and made error handling better
+                    login and signup, and made error handling better.
+                  </li>
+                  <li>
+                    Created a full-fledged admin portal for automating sales
+                    management of medicines for increased efficiency in
+                    operations through the reduction of manual processing time
+                    and the support of 6 lakh+ medicines in the product
+                    database.
+                  </li>
+                  <li>
+                    Designed and deployed robust backend APIs to facilitate
+                    seamless management of extensive pharmaceutical data,
+                    resulting in a 30% improvement in data retrieval speed and
+                    ensuring accurate inventory tracking for thousands of users
                   </li>
                 </ul>
               </p>
